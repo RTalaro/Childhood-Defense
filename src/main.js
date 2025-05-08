@@ -19,12 +19,9 @@ let config = {
     render: {
         pixelArt: true  // prevent pixel art from getting blurred when scaled
     },
-    width: 1000,
+    width: 1400,
     height: 800,
-    scene: [Path]
+    scene: [Game]
 }
-
-// Global variable to hold sprites
-var my = {sprite: {}};
 
 const game = new Phaser.Game(config);
